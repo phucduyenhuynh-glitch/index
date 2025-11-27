@@ -1,0 +1,109 @@
+
+      .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 8px;
+      }
+
+      .div1 {
+        grid-column: span 3 / span 3;
+      }
+
+      .div2 {
+        grid-column: span 3 / span 3;
+        grid-row-start: 2;
+        margin-top: -49%;
+      }
+
+      .div3 {
+        grid-row-start: 3;
+        margin-top: -20px;
+        font-size: 15px;
+        
+        
+      }
+      .div3 img {
+        width: 140px;
+        height: 113px;
+      }
+
+      .div4 {
+        grid-row-start: 3;
+        margin-top: -259%;
+        font-size: 20px;
+      }
+      .div5 {
+        grid-row-start: 3;
+        margin-top: -345%;
+      }
+
+      .div6 {
+        grid-column: span 3 / span 3;
+        
+       
+      }
+
+      .main {
+        background: blue;
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        padding: 12px 24px;
+        color: white;
+        white-space: nowrap;
+        font-size: 21px;
+      }
+
+      .d {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 6px 12px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .d:hover {
+        background-color: darkred;
+      }
+
+      .d ul {
+        list-style-type: none;
+        position: absolute;
+        background-color: white;
+        display: none;
+        top: 100%;
+        left: 0;
+        margin: 0;
+        padding: 10px;
+        min-width: 160px;
+        border-radius: 6px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+      }
+
+      .d:hover ul {
+        display: block;
+      }
+
+      .d ul li {
+        padding: 6px 0;
+        color: black;
+      }
+
+      .d ul li:hover {
+        background-color: rgb(239, 106, 106);
+      }
+      .gocnhin {
+        background-color: blue;
+        color: white;
+        font-size: 12px;
+      }
+      .hh {
+        font-weight: normal;
+      }
+      .indam {
+        font-weight: bold;
+        font-size: 20px;
+      }
